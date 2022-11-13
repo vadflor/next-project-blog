@@ -52,6 +52,7 @@ function PostContent(props) {
                 <SyntaxHighlighter
                     style={atomDark}
                     language={language}
+                    // eslint-disable-next-line react/no-children-prop
                     children={children}
                 />
             );
